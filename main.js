@@ -38,41 +38,65 @@ const app = {
             image: "./asset/img/zing_mp3.png"
         },
         {
-            name: "Má la anh giờ",
-            singer: "Hana Cẩm Tiên",
-            path: "./asset/music/ma_la_anh_gio.mp3",
+            name: "Là do em xui thôi",
+            singer: "Khói, Sofia, Châu Đăng Khoa",
+            path: "./asset/music/la_do_em_xui_thoi.mp3",
             image: "./asset/img/zing_mp3.png" 
         },
         {
-            name: "Đời vô tư người vô tâm",
-            singer: "Phát Huy",
-            path: "./asset/music/doi_vo_tu_nguoi_vo_tam.mp3",
+            name: "Yêu một người vô tâm",
+            singer: "Bảo Anh",
+            path: "./asset/music/yeu_mot_nguoi_vo_tam.mp3",
             image: "./asset/img/zing_mp3.png"
         },
         {
-            name: "Tháng 4 là lời nói dối của em",
-            singer: "Hà Anh Tuấn",
-            path: "./asset/music/song3.mp3",
+            name: "Khóc một mình",
+            singer: "Karik, Windy Quyên",
+            path: "./asset/music/khoc_mot_minh.mp3",
             image: "./asset/img/zing_mp3.png"
         },
         {
-            name: "Má la anh giờ",
-            singer: "Hana Cẩm Tiên",
-            path: "./asset/music/ma_la_anh_gio.mp3",
+            name: "Em hát ai nghe",
+            singer: "Orange",
+            path: "./asset/music/em_hat_ai_nghe.mp3",
             image: "./asset/img/zing_mp3.png" 
         },
         {
-            name: "Đời vô tư người vô tâm",
-            singer: "Phát Huy",
-            path: "./asset/music/doi_vo_tu_nguoi_vo_tam.mp3",
+            name: "Lâu lâu nhắc lại",
+            singer: "Hà Nhi, Khói",
+            path: "./asset/music/lau_lau_nhac_lai.mp3",
             image: "./asset/img/zing_mp3.png"
         },
         {
-            name: "Tháng 4 là lời nói dối của em",
-            singer: "Hà Anh Tuấn",
-            path: "./asset/music/song3.mp3",
+            name: "Từng là tụi mình",
+            singer: "Khói, Magazine, Sofia",
+            path: "./asset/music/tung_la_tui_minh.mp3",
             image: "./asset/img/zing_mp3.png"
-        }
+        },
+        {
+            name: "Gió",
+            singer: "Yank",
+            path: "./asset/music/gio.mp3",
+            image: "./asset/img/zing_mp3.png"
+        },
+        {
+            name: "Yêu như trẻ con",
+            singer: "Bray",
+            path: "./asset/music/YeuNhuTreCon.mp3",
+            image: "./asset/img/zing_mp3.png"
+        },
+        {
+            name: "Đông phai mờ dáng ai",
+            singer: "DatKaa",
+            path: "./asset/music/DongPhaiMoDangAi.mp3",
+            image: "./asset/img/zing_mp3.png"
+        },
+        {
+            name: "Cơn mưa chiều ấy",
+            singer: "DatKaa",
+            path: "./asset/music/ConMuaChieuAy.mp3",
+            image: "./asset/img/zing_mp3.png"
+        },
     ],
     render: function () {
         const htmls = this.songs.map((song, index) => {
